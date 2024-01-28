@@ -1,0 +1,46 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+.hero-texts {
+  margin-top: 108px;
+}
+.hero-title {
+  color: #eee9db;
+  font-family: Poppins;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+.hero-description {
+  color: #eee9db;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 500px;
+  margin-bottom: 60px;
+}
+
+.hero-button {
+  padding: 20px 40px;
+    cursor: pointer;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  transition: all 0.3s linear;
+  line-height: normal;
+  border:2px solid transparent
+}
+.hero-button:hover{
+    background-color: transparent;
+    border-color:white;
+    color:white;
+}

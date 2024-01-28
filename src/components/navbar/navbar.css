@@ -1,0 +1,58 @@
+.navbar {
+  padding-top: 36px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  display: flex;
+  gap: 35px;
+}
+nav ul {
+  align-items: center;
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #eee9db;
+  text-align: right;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 15px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s linear;
+}
+
+nav ul li a:hover {
+  border-color: white;
+}
+.login-button {
+  border-radius: 10px;
+  border: 1px solid #eee9db;
+  padding: 11px 45px;
+}
+.login-button a {
+  text-decoration: none;
+  color: #eee9db;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: all 0.3s linear;
+}
+.login-button:hover  {
+  background-color:white;
+  cursor: pointer;
+}
+.login-button:hover a {
+  color:black;
+}
+
